@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.diary.mapper.DiaryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.diary.entity.Diary">
+        <id column="diary_id" property="diaryId" />
+        <result column="title" property="title" />
+        <result column="Content" property="content" />
+        <result column="user_id" property="userId" />
+        <result column="created_at" property="createdAt" />
+        <result column="comments_count" property="commentsCount" />
+        <result column="likes_count" property="likesCount" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        diary_id, title, Content, user_id, created_at, comments_count, likes_count
+    </sql>
+
+</mapper>

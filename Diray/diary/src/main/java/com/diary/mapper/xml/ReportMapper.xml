@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.diary.mapper.ReportMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.diary.entity.Report">
+        <id column="report_id" property="reportId" />
+        <result column="report_type" property="reportType" />
+        <result column="target_id" property="targetId" />
+        <result column="content" property="content" />
+        <result column="report_reason" property="reportReason" />
+        <result column="status" property="status" />
+        <result column="action" property="action" />
+        <result column="operation_reason" property="operationReason" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        report_id, report_type, target_id, content, report_reason, status, action, operation_reason
+    </sql>
+
+</mapper>
