@@ -1,0 +1,100 @@
+[
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_167ddd7f"
+  },
+  {
+    "name": "resetPwd",
+    "path": "/resetPwd",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\resetPwd.vue",
+    "chunkName": "pages/resetPwd",
+    "_name": "_4e5038ca"
+  },
+  {
+    "name": "userlogin",
+    "path": "/userlogin",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\userlogin.vue",
+    "chunkName": "pages/userlogin",
+    "_name": "_b44abe5c"
+  },
+  {
+    "name": "wxamp",
+    "path": "/wxamp",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\wxamp.vue",
+    "chunkName": "pages/wxamp",
+    "_name": "_4600bd17"
+  },
+  {
+    "name": "User-management",
+    "path": "/User/management",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\management.vue",
+    "chunkName": "pages/User/management",
+    "_name": "_11ad2eec"
+  },
+  {
+    "name": "User-profile",
+    "path": "/User/profile",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\profile\\\\index.vue",
+    "chunkName": "pages/User/profile/index",
+    "_name": "_9d961d60"
+  },
+  {
+    "name": "User-publish",
+    "path": "/User/publish",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\publish.vue",
+    "chunkName": "pages/User/publish",
+    "_name": "_b5180150"
+  },
+  {
+    "name": "User-profile-resetPwd",
+    "path": "/User/profile/resetPwd",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\profile\\\\resetPwd.vue",
+    "chunkName": "pages/User/profile/resetPwd",
+    "_name": "_fd859b40"
+  },
+  {
+    "name": "User-profile-userAvatar",
+    "path": "/User/profile/userAvatar",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\profile\\\\userAvatar.vue",
+    "chunkName": "pages/User/profile/userAvatar",
+    "_name": "_0aa37676"
+  },
+  {
+    "name": "User-profile-userEmail",
+    "path": "/User/profile/userEmail",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\profile\\\\userEmail.vue",
+    "chunkName": "pages/User/profile/userEmail",
+    "_name": "_2cdc048f"
+  },
+  {
+    "name": "User-profile-userInfo",
+    "path": "/User/profile/userInfo",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\User\\\\profile\\\\userInfo.vue",
+    "chunkName": "pages/User/profile/userInfo",
+    "_name": "_e7eb36ea"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_a618d9b4"
+  },
+  {
+    "name": "c-contentId",
+    "path": "/c/:contentId",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\c\\\\_contentId\\\\index.vue",
+    "chunkName": "pages/c/_contentId/index",
+    "_name": "_33c1db54"
+  },
+  {
+    "name": "email-validate-uuid",
+    "path": "/email-validate/:uuid",
+    "component": "E:\\\\MBTI-Diary\\\\项目源码\\\\font\\\\pages\\\\email-validate\\\\_uuid\\\\index.vue",
+    "chunkName": "pages/email-validate/_uuid/index",
+    "_name": "_b0f73c8a"
+  }
+]

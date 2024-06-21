@@ -1,0 +1,76 @@
+16:46:24.284 [schedule-pool-16] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+19:42:47.674 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+19:42:47.680 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+19:50:32.788 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+19:50:32.806 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 10856 (E:\MBTI-Diary\项目源码\server\campus-modular\target\classes started by Administrator in E:\MBTI-Diary\项目源码\server)
+19:50:32.807 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+19:50:37.812 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+19:50:37.812 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+19:50:37.813 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:50:37.819 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+19:50:37.833 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+19:50:37.834 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+19:50:37.834 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+19:50:38.054 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+19:50:40.780 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+19:50:41.245 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+19:50:45.130 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+19:50:45.232 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 12.904 seconds (JVM running for 13.935)
+19:51:22.894 [http-nio-8160-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+19:51:41.658 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Success][登录成功]
+19:52:47.726 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Logout][退出成功]
+19:52:57.328 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[ling][1649740877917474817][Success][登录成功]
+19:53:19.359 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[ling][1649740877917474817][Logout][退出成功]
+19:53:27.446 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Success][登录成功]
+19:54:43.820 [schedule-pool-5] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+20:37:09.321 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+20:37:09.324 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+20:37:15.137 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+20:37:15.148 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 9020 (E:\MBTI-Diary\项目源码\server\campus-modular\target\classes started by Administrator in E:\MBTI-Diary\项目源码\server)
+20:37:15.149 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+20:37:16.964 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+20:37:16.964 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+20:37:16.964 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:37:16.968 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+20:37:16.976 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+20:37:16.977 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+20:37:16.977 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+20:37:17.068 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+20:37:18.247 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+20:37:18.500 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+20:37:20.834 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+20:37:20.913 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.149 seconds (JVM running for 6.886)
+20:37:53.813 [http-nio-8160-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:37:57.743 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+20:39:35.640 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Success][登录成功]
+20:57:35.654 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+20:57:45.905 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+20:57:45.909 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+21:01:38.813 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+21:01:38.821 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 10564 (E:\MBTI-Diary\项目源码\server\campus-modular\target\classes started by Administrator in E:\MBTI-Diary\项目源码\server)
+21:01:38.822 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+21:01:40.671 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+21:01:40.671 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21:01:40.671 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:01:40.675 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+21:01:40.683 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+21:01:40.683 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:01:40.683 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+21:01:40.768 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:01:42.136 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+21:01:42.403 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+21:01:44.620 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+21:01:44.683 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.348 seconds (JVM running for 7.172)
+21:02:25.204 [http-nio-8160-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:02:27.825 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+21:03:11.414 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Success][登录成功]
+21:03:44.529 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Logout][退出成功]
+21:03:49.426 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+21:04:01.788 [schedule-pool-1] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+21:04:06.939 [schedule-pool-5] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[ling][1649740877917474817][Success][登录成功]
+21:04:33.374 [schedule-pool-2] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[ling][1649740877917474817][Logout][退出成功]
+21:04:39.385 [schedule-pool-3] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[jack][1798666727048728577][Success][登录成功]
+21:05:03.500 [schedule-pool-7] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[jack][1798666727048728577][Logout][退出成功]
+21:05:14.120 [schedule-pool-5] INFO  sys-user - [run,53] - [127.0.0.1]内网IP[liu][1803732232435777538][Success][登录成功]
+21:07:49.312 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+21:07:49.315 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.

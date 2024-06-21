@@ -1,0 +1,18 @@
+17:36:40.869 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:36:40.875 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 1.8.0_91 on CHINAMI-RU4GE58 with PID 56356 (D:\sys\server\campus-modular\target\classes started by Administrator in D:\sys\server)
+17:36:40.876 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:36:42.397 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:36:42.398 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:36:42.398 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:36:42.493 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:36:43.778 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:36:43.872 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:36:46.253 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+17:36:46.334 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 5.761 seconds (JVM running for 6.473)
+17:46:53.908 [http-nio-8160-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:47:02.130 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Logout][退出成功]
+17:47:12.808 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Success][登录成功]
+17:54:10.457 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Logout][退出成功]
+17:54:18.808 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Success][登录成功]
+18:42:20.027 [schedule-pool-5] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[jack][][Register][注册成功]
+18:42:28.412 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[jack][1798666727048728577][Success][登录成功]

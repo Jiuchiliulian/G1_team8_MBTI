@@ -1,0 +1,383 @@
+16:34:38.732 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+16:34:38.789 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /127.0.0.1:6379
+16:34:47.890 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:34:56.087 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:35:12.487 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:35:42.587 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:36:12.687 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:36:42.790 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:37:12.887 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:37:42.988 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:38:13.116 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:38:43.186 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:39:13.287 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:39:43.386 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:40:13.486 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:40:43.587 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:41:13.688 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:41:43.786 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:42:13.890 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:42:43.986 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:43:14.086 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:43:44.185 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:44:14.286 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:44:44.387 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:45:14.494 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:45:44.588 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:46:14.687 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:46:44.788 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:47:14.887 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:47:44.985 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:48:15.087 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:48:45.186 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:49:15.291 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:49:45.392 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:50:15.492 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:50:45.592 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:51:15.689 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:51:45.786 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:52:15.892 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:52:45.987 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:53:16.087 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:53:46.193 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:54:16.286 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:54:46.388 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:55:16.488 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:55:46.586 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:56:16.686 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:56:46.788 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:57:16.886 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:57:46.988 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:58:17.104 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:58:47.201 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:59:17.305 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+16:59:47.394 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:00:17.489 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:00:47.596 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:01:17.687 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:01:47.801 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:02:17.887 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:02:47.992 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:03:18.094 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+17:03:37.698 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:03:37.702 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:03:49.461 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:03:49.475 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 7584 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:03:49.476 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:03:53.171 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:03:53.171 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:03:53.171 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:03:53.175 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:03:53.183 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:03:53.184 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:03:53.184 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:03:53.272 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:03:54.530 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:03:54.793 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:03:55.182 [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:03:55.187 [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:03:55.299 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:04:26.666 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:04:26.679 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 14072 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:04:26.680 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:04:28.389 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:04:28.389 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:04:28.389 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:04:28.392 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:04:28.400 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:04:28.400 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:04:28.400 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:04:28.482 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:04:29.634 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:04:29.873 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:04:30.254 [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:04:30.259 [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:04:30.376 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:14:52.204 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:14:52.218 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 18208 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:14:52.219 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:14:54.412 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:14:54.412 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:14:54.412 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:14:54.416 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:14:54.432 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:14:54.433 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:14:54.433 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:14:54.519 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:14:55.685 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:14:55.931 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:14:56.353 [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:14:56.359 [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:14:56.473 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:17:44.178 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:17:44.189 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 14680 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:17:44.190 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:17:45.883 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:17:45.883 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:17:45.883 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:17:45.887 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:17:45.895 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:17:45.895 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:17:45.895 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:17:45.976 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:17:47.128 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:17:47.377 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:17:47.774 [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:17:47.778 [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:17:47.891 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:20:24.631 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:20:24.642 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 2844 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:20:24.645 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:20:26.693 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:20:26.693 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:20:26.694 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:20:26.697 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:20:26.707 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:20:26.708 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:20:26.708 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:20:26.797 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:20:28.072 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:20:28.341 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:20:30.711 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+17:20:30.787 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.545 seconds (JVM running for 7.522)
+17:21:21.102 [http-nio-8160-exec-2] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:25:41.416 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+17:25:41.524 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /127.0.0.1:6379
+17:25:44.127 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:25:44.133 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:26:44.773 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:26:44.783 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 15684 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:26:44.785 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:26:46.711 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:26:46.711 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:26:46.712 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:26:46.716 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:26:46.725 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:26:46.726 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:26:46.726 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:26:46.820 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:26:48.097 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:26:48.362 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:26:48.812 [main] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:26:48.819 [main] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:26:48.939 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:27:02.103 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:27:02.112 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 20220 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:27:02.113 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:27:04.024 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:27:04.024 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:27:04.024 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:27:04.027 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:27:04.037 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:27:04.037 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:27:04.037 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:27:04.127 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:27:05.396 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:27:05.709 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:27:08.218 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+17:27:08.300 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.591 seconds (JVM running for 7.499)
+17:30:51.839 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+17:30:51.844 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+17:34:30.165 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+17:34:30.182 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 12944 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+17:34:30.183 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+17:34:34.402 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+17:34:34.402 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:34:34.403 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:34:34.407 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+17:34:34.418 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+17:34:34.418 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:34:34.418 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+17:34:34.524 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:34:36.285 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+17:34:36.665 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+17:34:39.645 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+17:34:39.739 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 9.95 seconds (JVM running for 11.716)
+17:34:47.046 [http-nio-8160-exec-3] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:42:47.617 [lettuce-nioEventLoop-4-1] INFO  i.l.c.p.CommandHandler - [log,217] - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:258)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+21:42:47.666 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was /127.0.0.1:6379
+21:42:56.670 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:43:04.961 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:43:21.366 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:43:51.471 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:44:21.561 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:44:51.674 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:45:21.761 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:45:51.862 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:46:21.962 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:46:52.062 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:47:22.161 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:47:52.265 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:48:22.372 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:48:52.468 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:49:22.571 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:49:52.661 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:50:22.767 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:50:52.861 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:51:22.965 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:51:53.061 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:52:23.170 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:52:53.261 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:53:23.361 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:53:53.464 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:54:23.562 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:54:53.662 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:55:23.762 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:55:53.867 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:56:23.962 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:56:54.061 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:57:24.162 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:57:54.262 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:58:24.362 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:58:54.467 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:59:24.564 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+21:59:54.661 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:00:24.763 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:00:54.862 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:01:24.962 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:01:55.066 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:02:25.161 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:02:55.261 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:03:25.361 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:03:55.461 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:04:25.562 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:04:55.665 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:05:25.770 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:05:55.861 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:06:25.961 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:06:56.061 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:07:26.165 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:07:56.261 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:08:26.361 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:08:56.463 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:09:26.562 [lettuce-eventExecutorLoop-1-1] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:09:56.663 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:10:26.767 [lettuce-eventExecutorLoop-1-3] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:10:56.862 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:11:26.967 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:11:57.061 [lettuce-eventExecutorLoop-1-6] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:12:27.162 [lettuce-eventExecutorLoop-1-7] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:12:57.268 [lettuce-eventExecutorLoop-1-5] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:13:27.361 [lettuce-eventExecutorLoop-1-8] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:13:57.462 [lettuce-eventExecutorLoop-1-2] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:14:27.561 [lettuce-eventExecutorLoop-1-4] INFO  i.l.c.p.ConnectionWatchdog - [log,171] - Reconnecting, last destination was 127.0.0.1/<unresolved>:6379
+22:14:27.567 [lettuce-nioEventLoop-4-6] INFO  i.l.c.p.ReconnectionHandler - [lambda$null$3,174] - Reconnected to 127.0.0.1/<unresolved>:6379
+22:59:38.919 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+22:59:47.727 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][密码输入错误1次]
+22:59:47.727 [schedule-pool-4] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][用户不存在/密码错误]
+22:59:51.916 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][密码输入错误2次]
+22:59:51.916 [schedule-pool-5] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][用户不存在/密码错误]
+23:01:16.170 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+23:05:59.028 [schedule-pool-8] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+23:06:08.061 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][][Error][密码输入错误1次]
+23:06:08.061 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][][Error][用户不存在/密码错误]
+23:06:12.316 [schedule-pool-6] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][][Error][密码输入错误2次]
+23:06:12.316 [schedule-pool-9] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][][Error][用户不存在/密码错误]
+23:06:20.303 [schedule-pool-7] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][密码输入错误1次]
+23:06:20.303 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][用户不存在/密码错误]
+23:06:23.792 [schedule-pool-5] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][密码输入错误2次]
+23:06:23.792 [schedule-pool-8] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][][Error][用户不存在/密码错误]
+23:06:55.349 [schedule-pool-13] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+23:07:44.026 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+23:08:00.458 [schedule-pool-14] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][1649740877917474817][Success][登录成功]
+23:08:56.255 [schedule-pool-10] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][1649740877917474817][Logout][退出成功]
+23:09:05.653 [schedule-pool-9] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+23:10:38.965 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+23:10:38.968 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+23:10:45.359 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+23:10:45.380 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 9820 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+23:10:45.381 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+23:10:48.827 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+23:10:48.827 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:10:48.827 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:10:48.831 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+23:10:48.842 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+23:10:48.842 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:10:48.842 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+23:10:48.945 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:10:50.414 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:10:50.705 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+23:10:53.245 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+23:10:53.320 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 8.367 seconds (JVM running for 9.46)
+23:11:00.231 [http-nio-8160-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:12:27.121 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+23:12:27.129 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+23:12:31.604 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+23:12:31.619 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 8832 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+23:12:31.620 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+23:12:33.561 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+23:12:33.561 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:12:33.562 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:12:33.565 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+23:12:33.574 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+23:12:33.574 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:12:33.574 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+23:12:33.665 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:12:34.927 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:12:35.194 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+23:12:37.542 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+23:12:37.613 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.432 seconds (JVM running for 7.361)
+23:12:44.137 [http-nio-8160-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:13:56.135 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+23:13:56.144 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
+23:14:00.718 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+23:14:00.728 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 17.0.9 on DESKTOP-VTO87N9 with PID 17940 (E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server\campus-modular\target\classes started by Administrator in E:\SpringBoot+Vue校园论坛(微博)系统\项目源码\server)
+23:14:00.732 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+23:14:02.720 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+23:14:02.720 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:14:02.721 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:14:02.723 [main] INFO  o.a.c.c.AprLifecycleListener - [log,173] - OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+23:14:02.733 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+23:14:02.733 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:14:02.733 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+23:14:02.828 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:14:04.141 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:14:04.419 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+23:14:06.984 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+23:14:07.085 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.793 seconds (JVM running for 7.767)
+23:14:12.615 [http-nio-8160-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'

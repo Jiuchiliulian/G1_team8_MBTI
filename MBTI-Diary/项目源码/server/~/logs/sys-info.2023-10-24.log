@@ -1,0 +1,20 @@
+16:00:54.793 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+16:00:54.797 [main] INFO  c.o.c.CampusApplication - [logStarting,55] - Starting CampusApplication using Java 1.8.0_372 on DESKTOP-U8QQVG6 with PID 29324 (D:\Desktop\销售项目\校园论坛系统\源码\测试\后台\campus-modular\target\classes started by 12778 in D:\Desktop\销售项目\校园论坛系统\源码\测试\后台)
+16:00:54.799 [main] INFO  c.o.c.CampusApplication - [logStartupProfileInfo,686] - The following 1 profile is active: "dev"
+16:00:57.326 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8160"]
+16:00:57.326 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:00:57.326 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.63]
+16:00:57.449 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:00:58.582 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+16:00:58.770 [main] INFO  c.z.h.HikariDataSource - [getConnection,123] - HikariPool-1 - Start completed.
+16:01:00.854 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8160"]
+16:01:00.913 [main] INFO  c.o.c.CampusApplication - [logStarted,61] - Started CampusApplication in 6.375 seconds (JVM running for 7.091)
+16:01:03.074 [http-nio-8160-exec-5] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:01:10.211 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][1649740877917474817][Success][登录成功]
+16:02:47.193 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+16:09:09.781 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][1649740877917474817][Logout][退出成功]
+16:09:25.210 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+16:09:37.646 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+16:13:15.843 [schedule-pool-5] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
+16:13:19.951 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
+16:15:03.880 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]

@@ -1,0 +1,6 @@
+17:47:02.130 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Logout][退出成功]
+17:47:12.808 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Success][登录成功]
+17:54:10.457 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Logout][退出成功]
+17:54:18.808 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[java1234][1][Success][登录成功]
+18:42:20.027 [schedule-pool-5] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[jack][][Register][注册成功]
+18:42:28.412 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[jack][1798666727048728577][Success][登录成功]
