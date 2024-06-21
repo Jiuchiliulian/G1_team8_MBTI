@@ -1,8 +1,0 @@
-16:01:10.211 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][1649740877917474817][Success][登录成功]
-16:02:47.193 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
-16:09:09.781 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[ling][1649740877917474817][Logout][退出成功]
-16:09:25.210 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
-16:09:37.646 [schedule-pool-1] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
-16:13:15.843 [schedule-pool-5] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Logout][退出成功]
-16:13:19.951 [schedule-pool-2] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
-16:15:03.880 [schedule-pool-3] INFO  sys-user - [run,54] - [127.0.0.1]内网IP[admin][1][Success][登录成功]
